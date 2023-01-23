@@ -27,7 +27,7 @@
   ## Usage
   Use `npm start` to run the file. 
   ### Running in headless mode
- The app.js file included in this repo currently opens the web page so that it's visible on screen when running the app. If you do not want the browser to visible when running puppeteer, update the headless option to `true`.
+ The app.js file included in this repo currently opens the web page so that it's visible on screen when running the app. If you do not want the browser to be visible when running puppeteer, update the headless option to `true`.
    
    ``` puppeteer.launch({headless: false}); ```
 
